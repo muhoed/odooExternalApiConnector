@@ -7,7 +7,7 @@ Helper class to create connection to Odoo ERP server through its external API us
 class odooExternalApiConnector
 
 Parameters:     
-- url (optional:str) - full url path to [Odoo server](https://odoo.server.com/). Default to None.
+- url (optional:str) - full url path to Odoo server (example: 'https://odoo.server.com/'). Default to None.
 - host (optional:str) - path to Odoo server as 'hostname:port'. Default to 'localhost:8069'.
 - db (optional:str) - name of database. First database existing on the server and accessed with the credentials given will be connected if the parameter is not provided. Default to None.
 - username (optional:str) - username for authentication on the Odoo server. Default to None.
